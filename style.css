@@ -139,7 +139,7 @@ section .title::after {
 
 /*  Nav Logo Span Linear-Gradient  */
 .navbar .logo a span {
-    background: linear-gradient(135deg, #041d3d, #fff, crimson);
+    background: #b3b3b3;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease;
@@ -211,12 +211,12 @@ section .title::after {
 
 /*  Home  */
 .home {
-    display: flex;
-    background: url("https://source.unsplash.com/720x600/?dark,laptop") no-repeat center;
+    display: flex ;
+    background:url("working-businessman-modern-desk-illuminated-laptop-generated-by-ai.jpg") center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     font-family: "Ubuntu", sans-serif;
 }
@@ -248,7 +248,7 @@ section .title::after {
 /* Linear Gradient */
 .home .home-content .text-3 span {
     color: #1e3551;
-    background: linear-gradient(135deg, #041d3d, #fff, crimson);
+    background: rgb(105, 104, 104);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
@@ -310,7 +310,7 @@ section .title::after {
 /* Linear Gradiant */
 .about .about-content .right .text span {
     /* color: #1e3551; */
-    background: linear-gradient(135deg, #041d3d, #fff, crimson);
+    background: cornflowerblue  ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -359,9 +359,9 @@ section .title::after {
 .services .serv-content .card {
     width: calc(33% - 20px);
     background: #222;
-    text-align: center;
+    text-align: center justify;
     border-radius: 10px;
-    padding: 50px 25px;
+    padding: 50px 30px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -456,26 +456,29 @@ section .title::after {
 
 .skills .skills-content .right .info {
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: auto;
+    margin-top: auto;
     align-items: center;
     justify-content: space-between;
+    text-wrap: wrap;
 }
 
 .skills .skills-content .right span {
     font-weight: 500;
     font-size: 18px;
+    text-wrap: wrap;
 }
 
 .skills .skills-content .right .line {
-    height: 5px;
+    height: 10px;
     width: 100%;
     background: lightgrey;
     position: relative;
 }
 
 .skills .skills-content .right .line::before {
-    content: "";
-    position: absolute;
+    text-wrap: wrap;
+    position: justify;
     height: 100%;
     left: 0;
     top: 0;

@@ -40,11 +40,12 @@ $(document).ready(function () {
   
     var typed = new Typed(".typing", {
       strings: [
-        "Fullstack Developer",
+        "Full MERN stack Developer",
+        "Application Developer",
         "Software Developer",
+        "Java Developer",
         "Python Developer",
-        "Founder",
-        "Author"
+        
       ],
       typeSpeed: 100,
       backSpeed: 60,
@@ -53,11 +54,11 @@ $(document).ready(function () {
   
     var typed = new Typed(".typing-2", {
       strings: [
-        "Fullstack Developer",
+        "Full MERN stack Developer",
+        "Application Developer",
         "Software Developer",
+        "Java Developer",
         "Python Developer",
-        "Founder",
-        "Author"
       ],
       typeSpeed: 100,
       backSpeed: 60,
